@@ -19,7 +19,7 @@ switch (current) {
 var current = 1;
 $(function() {
   $('#carousel2').hide();
-  
+ 
   $('#carousel3').hide();
    setInterval(interval, 3000);
 });
