@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+  background-color: gray;
+  padding: 0px;
+  margin: 0px;
+  max-width: 100%; }
+
+nav {
+  width: 100%;
+  float: left;
+  height: 80px;
+  background-color: white; }
+  nav img {
+    float: left; }
+  nav p {
+    float: left; }
+  nav ul {
+    float: left;
+    display: inline-flex;
+    list-style-type: none; }
+    nav ul a {
+      text-decoration: none; }
+  nav li {
+    margin-left: 20px; }
+
+#content {
+  height: 809px;
+  width: 100%; }
+  #content img {
+    max-width: 100%; }
+
+@media screen and (max-width: 610px) {
+  nav {
+    height: 140px; }
+    nav ul {
+      display: inline-block; } }
+@media screen and (max-width: 1024px) {
+  img.two {
+    position: absolute;
+    left: 0px;
+    top: 140px; } }
+/* Smartphones (portrait and landscape) ----------- */
+/* Styles */
+/* Smartphones (landscape) ----------- */
+/* Styles */
+/* Smartphones (portrait) ----------- */
+/* Styles */
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  img.two {
+    position: absolute;
+    left: 0px;
+    top: -50px; } }
+/* Styles */
+/* Styles */
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  img.two {
+    position: absolute;
+    left: 0px;
+    top: 290px; } }
+/* Large screens ----------- */
+/* Styles */
+/* iPhone 4 ----------- */
+/* Styles */
+/* Styles */
+/* iPhone 5 ----------- */
+/* Styles */
+/* Styles */
+/* iPhone 6 ----------- */
+/* Styles */
+/* Styles */
+/* iPhone 6+ ----------- */
+/* Styles */
+/* Styles */
+/* Samsung Galaxy S3 ----------- */
+/* Styles */
+/* Styles */
+/* Samsung Galaxy S4 ----------- */
+/* Styles */
+/* Styles */
+/* Samsung Galaxy S5 ----------- */
+/* Styles */
+
+/*# sourceMappingURL=style.css.map */
